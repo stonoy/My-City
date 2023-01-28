@@ -1,0 +1,123 @@
+
+html{
+    background: radial-gradient(whitesmoke,#333);
+}
+body{
+    background-color: aliceblue;
+    width: 750px;
+    margin: 0 auto;
+    font-family: 'Spinnaker', sans-serif;
+}
+/* BACKGROUND SECTION */
+.background{
+    background-image: url('/images/Dakshineswar-Kali-Temple.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    height: 400px;
+    text-shadow: 0 0 1px #333;
+    margin: 0;
+    padding: 0;
+}
+.background h1{
+   padding: 10px 20px;
+   margin-bottom: 0;
+   font-size: 45px;
+   color: #745337;
+   margin-top: 0;
+}
+.background p{
+   padding: 5px 20px;
+   font-size: 25px;
+   color: #745337;
+}
+.bold{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #0C3006;
+    
+}
+.bold:hover{
+    border-bottom: 2px solid #745337;
+}
+/* INTRO SECTION */
+.intros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    margin: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #745337;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #edede9;
+    color: #071a30;
+}
+.intro:hover{
+    box-shadow: 1px 1px 2px #333;
+}
+.intro img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #0C3006;
+}
+.intro h3{
+    
+}
+/* LAST SECTION */
+.last-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.details{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #FFCC66;
+}
+.details h2{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #333;
+    width: 40%;
+    margin: 0 auto;
+}
+.details p{
+    line-height: 24px;
+}
+.last-section h1{
+    border-bottom: 2px solid #0C3006;
+}
+.card{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: #cad2c5;
+    color: #2f3e46;
+    box-shadow: 1px 1px 2px #333;
+}
+.card:hover{
+    box-shadow: 2px 2px 4px #333;
+}
+.detail{
+    text-align: center;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #0C3006;
+}
